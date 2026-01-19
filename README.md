@@ -11,6 +11,18 @@ The framework supports flexible data combinations and complex fault geometries w
 
 ---
 
+## Directory Structure
+```text
+Geodetic-Finite-Fault-Inversion/
+├── example/
+│   └── Ridgecrest/
+│       ├── input/          # GNSS, InSAR, phase-gradient observations
+│       └── model/          # Inversion configuration files and slip model
+└── src/
+    ├── Subsample.m            # Data subsampling
+    ├── main_inv.m             # Main inversion entry
+    └── main_inv_ridgecrest.m
+```
 ## 📊 Data Preparation
 *Perform quality control and preprocessing before inversion. All coordinates use WGS84 datum.*
 
