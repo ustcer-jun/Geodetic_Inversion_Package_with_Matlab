@@ -13,7 +13,7 @@ The framework supports flexible data combinations and complex fault geometries w
 
 ## Directory Structure
 ```text
-Geodetic-Finite-Fault-Inversion/
+Geodetic_Inversion/
 ├── example/
 │   └── Ridgecrest/
 │       ├── input/          # GNSS, InSAR, phase-gradient observations
